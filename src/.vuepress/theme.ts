@@ -18,11 +18,11 @@ const footerICP_HTML = `
 `;
 
 export default hopeTheme({
-  hostname: 'https://mo7.cc',
+  hostname: 'https://arch.me',
   author: {
-    name: '墨七',
-    url: 'https://mo7.cc',
-    email: 'mo7@mo7.cc',
+    name: '不如吃茶去',
+    url: 'https://arch.me',
+    email: 'admin@arch.me',
   },
   lastUpdated: true,
   darkmode: 'toggle',
@@ -49,25 +49,22 @@ export default hopeTheme({
   },
   sidebarSorter: ['order', 'readme', 'title', 'filename'],
 
-  iconAssets: '//at.alicdn.com/t/c/font_3855310_ue6zvltxqq.css',
+  iconAssets: [
+    '//at.alicdn.com/t/c/font_4775713_0is6ey3ewjvl.css',
+    '//at.alicdn.com/t/c/font_3855310_x57nhnfssr7.css',
+    '//at.alicdn.com/t/c/font_2922463_kweia6fbo9.css'
+  ],
   logo: '/pwa/144.png',
   docsDir: 'src',
   blog: {
-    name: '墨七',
-    avatar: '//file.mo7.cc/static/lxh_gif/lxh_71.gif',
-    description: '简单快乐，理应如此。',
-    intro: 'https://mo7.cc/about/me.html',
+    name: '不如吃茶去',
+    avatar: '/avatar.gif',
+    description: '隔牖风惊竹，开窗雪满山',
+    intro: 'https://arch.me/about/me.html',
     medias: {
-      Email: 'mailto:mo7@mo7.cc',
-      GitHub: 'https://github.com/mo7cc',
-      Discord: 'https://discord.gg/8yXKxbSDDg',
-      Lark: 'https://www.larksuite.com/invitation/page/add_contact/?token=c8co337a-9dd7-4976-998f-5d2898o763r5&amp;unique_id=cgjGUk53Y2dh_FCZPuqY_A==',
-      WechatPay: 'https://file.mo7.cc/static/img/wx_proceeds.jpg',
-      QQ: 'https://file.mo7.cc/static/img/myqq.jpeg',
-      Wechat: 'https://file.mo7.cc/static/img/mywchart.jpeg',
-      Zhihu: 'https://www.zhihu.com/people/meichangliang',
-      BiliBili: 'https://space.bilibili.com/24452567',
-      Rss: 'https://mo7.cc/atom.xml',
+      Email: 'mailto:admin@arch.me',
+      GitHub: 'https://github.com/linuxno',
+      Rss: '/atom.xml',
     },
   },
 
@@ -77,10 +74,10 @@ export default hopeTheme({
       navbar: zhNavbar,
       sidebar: zhSidebar,
       blog: {
-        name: '墨七',
-        description: '简单快乐，理应如此。',
+        name: '不如吃茶去',
+        description: '隔牖风惊竹，开窗雪满山',
         intro: '/about/me.html',
-        timeline: '简单快乐，理应如此。',
+        timeline: '隔牖风惊竹，开窗雪满山',
       },
     },
 
@@ -88,14 +85,15 @@ export default hopeTheme({
       navbar: enNavbar,
       sidebar: enSidebar,
       blog: {
-        name: 'Mo7',
-        description: 'Simple and happy, as it should be.',
+        name: 'Linux No',
+        description: 'Through the window, Snow Mountain.',
         intro: '/en/intro.html',
-        timeline: 'Something wonderful is about to  happen.',
+        timeline: 'Through the window, Snow Mountain.',
       },
     },
   },
 
+  // enable it to preview all changes in time
   hotReload: true,
 
   markdown: {

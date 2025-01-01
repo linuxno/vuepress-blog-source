@@ -5,10 +5,10 @@ icon: home
 title: 首页
 heroImage: /pwa/144.png
 bgImage: //file.mo7.cc/api/public/bz?idx=1
-heroText: 墨七
+heroText: 不如吃茶去
 heroFullScreen: true
-tagline: 简单快乐，理应如此。
-description: 墨七,博客,记录,分享
+tagline: 隔牖风惊竹，开窗雪满山
+description: 不如吃茶去,博客,记录,分享
 article: false
 index: false
 containerClass: mo7-blog-home
@@ -39,7 +39,7 @@ projects:
     link: /tutorial/vuepress-hope/
 
   - icon: developer
-    name: 墨七的编程笔记
+    name: 不如吃茶去的编程笔记
     desc: 整理编程的一些技巧相关的东西
     link: /developer/
 
@@ -50,7 +50,7 @@ projects:
 
   - icon: bookone
     name: 教程
-    desc: 墨七编写的一些杂七杂八的小教程
+    desc: 不如吃茶去编写的一些杂七杂八的小教程
     link: /tutorial/
 
   - icon: gongju
@@ -65,43 +65,25 @@ projects:
 
   - icon: liuyan
     name: 留言板
-    desc: '留下一些你想说的话。'
+    desc: '留下一些你想说的话'
     link: /about/guestbook
-
-  - icon: https://otter-trade.github.io/pwa/512x512.png
-    name: OtterTrade
-    desc: 励志做最好用的量化平台。
-    link: https://otter-trade.github.io
 
 footer: true
 ---
 
 <div id="mo7-blog-hero-content">
-  <a target="_blank" class="link image-link link-1" href="https://mo7.cc">
+    <a target="_blank" class="link image-link link-1" href="https://mo7.cc">
     <img class="vp-blog-hero-image" src="//file.mo7.cc/static/lxh_gif/lxh_71.gif" alt="" srcset="" />
-  </a>
-  <a target="_blank" class="link  link-2" href="https://mo7cc.github.io">
-    <h1 class="vp-blog-hero-title">墨七<span class="vp-blog-hero-subtitle">(mo7.cc)</span></h1>
-  </a>
-  <a target="_blank" class="link  link-3" href="/posts/catalog.html">
-    <h2>My Blog</h2>
-    <span>https://mo7.cc</span>
-  </a>
-  <a target="_blank" class="link  link-4" href="https://github.com/mo7cc">
-    <h2>My Github</h2>
-    <span>https://github.com/mo7cc</span>
-  </a>
-  <a target="_blank" class="link  link-5" href="https://otter-trade.github.io">
-    <h2>OtterTrade.com</h2>
-    <span>https://otter-trade.github.io</span>
-  </a>
-</div>
-
-<div id="mo7-hitokoto-wrapper">
-  <div class="word">
-    <div class="left">『</div>
-    <span id="hitokoto_text"> 简单快乐，理应如此。 </span>
-    <div class="right">』</div>
-  </div>
-  <div id="hitokoto_author">——「墨七」</div>
+    </a>
+    <a target="_blank" class="link  link-2" href="https://linuxno.github.io">
+    <h1 class="vp-blog-hero-title">不如吃茶去<span class="vp-blog-hero-subtitle">(arch.me)</span></h1>
+    </a>
+    <div id="mo7-hitokoto-wrapper">
+      <div class="word">
+        <div class="left">『</div>
+        <span id="hitokoto_text"> 隔牖风惊竹，开窗雪满山 </span>
+        <div class="right">』</div>
+      </div>
+      <div id="hitokoto_author">——「不如吃茶去」</div>
+    </div>
 </div>

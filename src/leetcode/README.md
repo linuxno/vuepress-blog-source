@@ -20,8 +20,6 @@ permalink: /leetcode/
 
 刷 LeetCode 防止老年痴呆。
 
-个人主页：https://leetcode.cn/u/mo7cc/
-
 :::
 
 ---

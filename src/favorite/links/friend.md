@@ -73,15 +73,8 @@ permalink: /favorite/links/friend.html
 <VPCard
   title="耳朵同"
   desc="这里是耳朵同的博客"
-  logo="https://blog.erduotong.com/logo.png"
-  link="https://blog.erduotong.com/"
-/>
-
-<VPCard
-  title="XingJiのBlog"
-  desc="迄今所有人生都大写着失败，但不妨碍我继续向前✨"
-  logo="https://i.p-i.vip/47/20240920-66ed7b168c38c.jpg"
-  link="https://love.xingji.fun"
+  logo="https://erduotong.github.io/logo.png"
+  link="https://erduotong.github.io/"
 />
 
 ---
@@ -108,9 +101,9 @@ permalink: /favorite/links/friend.html
 @tab YAML
 
 ```yaml
-昵称: 墨七
-描述: 简单快乐，理应如此。
-地址: https://mo7.cc
+昵称: 不如吃茶去
+描述: 隔牖风惊竹，开窗雪满山
+地址: https://arch.me
 头像: https://file.mo7.cc/static/lxh_gif/lxh_71.gif
 ```
 
@@ -118,9 +111,9 @@ permalink: /favorite/links/friend.html
 
 ```json
 {
-  "name": "墨七",
-  "description": "简单快乐，理应如此。",
-  "link": "https://mo7.cc",
+  "name": "不如吃茶去",
+  "description": "隔牖风惊竹，开窗雪满山",
+  "link": "https://arch.me",
   "avatar": "https://file.mo7.cc/static/lxh_gif/lxh_71.gif"
 }
 ```

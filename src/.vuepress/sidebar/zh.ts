@@ -45,24 +45,6 @@ export const zhSidebar = sidebar({
       children: 'structure',
     },
   ],
-  '/tools/git/': [
-    back_tools,
-    {
-      text: 'Git',
-      icon: 'git',
-      link: '/tools/git/',
-      children: 'structure',
-    },
-  ],
-  '/tools/vscode/': [
-    back_tools,
-    {
-      text: 'Visual Studio Code',
-      icon: 'vscode',
-      link: '/tools/vscode/',
-      children: 'structure',
-    },
-  ],
   // 小技巧
   '/tips/': [
     back_posts,
@@ -83,45 +65,7 @@ export const zhSidebar = sidebar({
       children: 'structure',
     },
   ],
-  '/developer/basic/': [
-    back_developer,
-    {
-      text: '基础',
-      icon: 'basic',
-      link: '/developer/basic/',
-      children: 'structure',
-    },
-  ],
-  '/developer/linux/': [
-    back_developer,
-    {
-      text: 'Linux',
-      icon: 'linux',
-      link: '/developer/linux/',
-      children: 'structure',
-    },
-  ],
-
-  '/developer/front_end_web/': [
-    back_developer,
-    {
-      text: 'Web前端',
-      icon: 'HTML',
-      link: '/developer/front_end_web/',
-      children: 'structure',
-    },
-  ],
-  '/developer/golang/': [
-    back_developer,
-    {
-      text: 'Go',
-      icon: 'goicon',
-      link: '/developer/golang/',
-      children: 'structure',
-    },
-  ],
-
-  // leetcode
+  // LeetCode
   '/leetcode/': [
     back_developer,
     {
@@ -131,7 +75,6 @@ export const zhSidebar = sidebar({
       children: 'structure',
     },
   ],
-
   // 教程
   '/tutorial/': [
     back_posts,
@@ -139,15 +82,6 @@ export const zhSidebar = sidebar({
       text: '教程',
       icon: 'bookone',
       link: '/tutorial/',
-      children: 'structure',
-    },
-  ],
-  '/tutorial/vuepress-hope/': [
-    back_tutorial,
-    {
-      text: '本博客搭建指南',
-      icon: 'boke',
-      link: '/tutorial/vuepress-hope/',
       children: 'structure',
     },
   ],
@@ -256,7 +190,6 @@ export const zhSidebar = sidebar({
       link: '/leetcode/',
       children: 'structure',
     },
-
     {
       text: '关于',
       icon: 'info',
